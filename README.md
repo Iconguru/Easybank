@@ -18,8 +18,6 @@ Interactive navigation menu and side drawer for mobile devices.
 Engaging content layout with feature highlights and latest articles.
 Getting Started
 To view the project locally, follow these steps:
-
-Clone the repository: git clone https://github.com/Dannyswiss1/Easybank-landing-page.git
 Navigate to the project directory: cd easy-bank-website
 Open the index.html file in your web browser to view the website.
 Technologies Used
