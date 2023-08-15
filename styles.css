@@ -1,0 +1,316 @@
+body {
+    background-image: url(images/image-mockups.png),
+      url("images/bg-intro-desktop.svg");
+    background-position: right top, right top;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 700px, 830px;
+  }
+  
+  #entire-work {
+    margin: auto;
+  }
+  
+  #main-header {
+    height: 5rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: rgb(243, 239, 237);
+    padding: 0 5%;
+  }
+  
+  .socs ul {
+    justify-content: center;
+  }
+  
+  .invitee a {
+    margin: 20px;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 100px;
+    color: azure;
+    padding: 20px;
+    background-image: linear-gradient(
+      9deg,
+      rgb(16, 214, 214),
+      rgb(40, 155, 40),
+      rgb(34, 34, 228)
+    );
+  }
+  
+  #main-header ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    justify-content: space-between;
+  }
+  
+  #main-header a {
+    text-decoration: none;
+  }
+  
+  #main-header li {
+    margin: 0 16px;
+    color: rgb(94, 89, 89);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .divA {
+    padding: 100px;
+  }
+  
+  .divAcontent {
+    border-radius: 6px;
+    overflow: hidden;
+    justify-content: space-between;
+    width: 400px;
+    padding-bottom: 10px;
+  }
+  
+  .divAcontent h1 {
+    padding: 20px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+    color: gray;
+  }
+  
+  .divAcontent p {
+    padding-left: 20px;
+    padding-bottom: 40px;
+  }
+  
+  .divAcontent a {
+    margin: 20px;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 100px;
+    color: azure;
+    padding: 20px;
+    background-image: linear-gradient(
+      9deg,
+      rgb(16, 214, 214),
+      rgb(40, 155, 40),
+      rgb(34, 34, 228)
+    );
+  }
+  
+  #side-drawer {
+    width: 100%;
+    height: 100%;
+    background-color: rgb(29, 26, 27);
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: none;
+  }
+  
+  #side-drawer header {
+    height: 5rem;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 5%;
+  }
+  
+  /* some pages have links right within the pages, 
+  they are called to be styled with the :target 
+  property called the fragment identifier. 
+  they are tagged with the '#' after an achor 
+  tag 'a' within the page */
+  
+  #side-drawer:target {
+    display: block;
+  }
+  
+  #side-drawer ul {
+    list-style: none;
+    margin: 0;
+    padding: 4rem 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  #side-drawer li {
+    margin: 1rem 0;
+  }
+  
+  #side-drawer a {
+    color: rgb(253, 239, 213);
+    font-size: 2rem;
+    text-decoration: none;
+  }
+  
+  .menu-btn {
+    width: 2.5rem;
+    height: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    display: none;
+  }
+  
+  .menu-btn span {
+    width: 100%;
+    height: 3px;
+    background-color: rgb(15, 15, 11);
+  }
+  
+  .divShade {
+    background-color: rgb(250, 242, 242);
+    padding: 50px;
+  }
+  
+  .divB {
+    padding: 25px;
+  }
+  
+  .divC {
+    display: flex;
+    list-style: none;
+  }
+  
+  .divD img {
+    height: 200px;
+    width: 250px;
+    box-shadow: 2px 4px 8px rgb(68, 67, 67);
+    border-radius: 10px;
+    object-fit: cover;
+  }
+  
+  .divD p {
+    color: rgb(77, 74, 74);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .divD h4 {
+    color: rgb(51, 47, 47);
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+      "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  }
+  
+  .divD {
+    padding: 50px;
+  }
+  
+  .divimg {
+    display: flex;
+    list-style: none;
+  }
+  
+  .divimg li {
+    box-shadow: 1px 1px 4px rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    overflow: hidden;
+    padding: 10px;
+  }
+  
+  #main-footer {
+    background-color: rgb(33, 33, 58);
+    height: 13rem;
+  }
+  
+  #footer-content {
+    display: flex;
+    justify-content: space-around;
+  }
+  
+  .div1 {
+    padding-top: 1.5rem;
+  }
+  
+  #socials {
+    display: flex;
+    padding-top: 20px;
+  }
+  
+  #socials li {
+    list-style: none;
+    margin: 5px;
+  }
+  
+  .div2 {
+    display: flex;
+    padding-top: 20px;
+  }
+  
+  .div2 ul {
+    list-style: none;
+  }
+  
+  .div2 a {
+    text-decoration: none;
+    display: flex;
+    color: azure;
+  }
+  
+  .div3 ul {
+    list-style: none;
+    padding-top: 20px;
+    text-align: end;
+  }
+  
+  .div3 a {
+    background-color: aqua;
+    margin: 20px;
+    padding: 10px 40px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    color: azure;
+    background-image: linear-gradient(
+      9deg,
+      rgb(16, 214, 214),
+      rgb(40, 155, 40),
+      rgb(34, 34, 228)
+    );
+  }
+  
+  .div3 p {
+    padding-top: 15px;
+    color: azure;
+  }
+  
+  @media (max-width: 48rem) {
+    .invitee a {
+      display: none;
+    }
+    body {
+      background-image: url(images/image-mockups.png),
+        url("images/bg-intro-desktop.svg");
+      background-position: center top, center top;
+      background-repeat: no-repeat, no-repeat;
+      background-size: 350px, 430px;
+    }
+    .divAcontent {
+      padding-top: 250px;
+    }
+    .menu-btn {
+      display: flex;
+    }
+    #footer-content {
+      display: grid;
+      justify-content: space-around;
+    }
+    .div2 {
+      display: grid;
+    }
+    #main-footer {
+      background-color: rgb(33, 33, 58);
+      height: 35rem;
+    }
+    #main-header nav {
+      display: none;
+    }
+    .divC {
+      display: grid;
+    }
+    .divimg {
+      display: grid;
+    }
+  }
